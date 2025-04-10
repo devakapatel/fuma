@@ -1,5 +1,9 @@
-@import 'tailwindcss';
-@import 'fumadocs-ui/css/neutral.css';
-@import 'fumadocs-ui/css/preset.css';
+@import "tailwindcss";
+@import "fumadocs-ui/css/neutral.css";
+@import "fumadocs-ui/css/preset.css";
 
 @source '../node_modules/fumadocs-ui/dist/**/*.js';
+
+.shadow-bluish {
+  box-shadow: 0px 0px 7px 7px rgba(145, _65, _172, _0.1);
+}
